@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sojourno</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Satisfy&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/global.css">
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="logo">
+                <a href="#">Sojourno</a>
+            </h1>
+        </header>
+
+        <main class="main">
+            <section class="main__stories">
+                <div class="stories__container container">
+                    <h2 class="stories__title">Stories</h2>
+
+                    <ul class="stories__list">
+                        <li class="stories__story personal-story">
+                            <button class="story__create" aria-label="Criar Story">
+                                <img src="assets/img/icons/create.svg" alt="Criar Story">
+                            </button>
+                            
+                            <button class="story__button" aria-label="Abrir seu Story">
+                                <img class="story__photo" src="assets/img/profiles/personal.svg" alt="Seu Story">
+                            </button>
+                        </li>
+
+                        <li class="stories__story">
+                            <button class="story__button" aria-label="Abrir Story do José">
+                                <img class="story__photo" src="assets/img/profiles/2.svg" alt="Story do José">
+                            </button>
+                        </li>
+
+                        <li class="stories__story">
+                            <button class="story__button" aria-label="Abrir Story do Guilherme">
+                                <img class="story__photo" src="assets/img/profiles/3.svg" alt="Story do Guilherme">
+                            </button>
+                        </li>
+
+                        <li class="stories__story">
+                            <button class="story__button new-story" aria-label="Abrir Story da Claúdia">
+                                <img class="story__photo" src="assets/img/profiles/4.svg" alt="Story da Claúdia">
+                            </button>
+                        </li>
+
+                        <li class="stories__story">
+                            <button class="story__button new-story" aria-label="Abrir Story da Vanessa">
+                                <img class="story__photo" src="assets/img/profiles/5.svg" alt="Story da Vanessa">
+                            </button>
+                        </li>
+
+                        <li class="stories__story">
+                            <button class="story__button" aria-label="Abrir Story do Ricardo">
+                                <img class="story__photo" src="assets/img/profiles/6.svg" alt="Story do Ricardo">
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="main__posts">
+                <div class="posts__container container">
+                    <div class="posts__page">
+                        <button class="page__title page-active" aria-label="Ir na página de Feed">Feed</button>
+                        <hr>
+                        <button class="page__title" aria-label="Ir na página de Posts">Posts</button>
+                    </div>
+
+                    <ul class="posts__list">
+                        <li class="posts__post">
+                            <div class="post__header">
+                                <a class="post__profile" href="#!">
+                                    <img class="profile__image" src="assets/img/profiles/1.svg" alt="Pajé_The_Fato">
+                                    <span class="profile__name">Pajé_The_Fato</span>
+                                </a>
+
+                                <button class="post__options" aria-label="Abrir opções do post">
+                                    <img src="assets/img/icons/options.svg" alt="Opções">
+                                </button>
+                            </div>
+
+                            <div class="post__body">
+                                <img class="post__photo" src="assets/img/photos/switzerland.jpg" alt="">
+                            </div>
+
+                            <div class="post__footer">
+                                <div class="post__interactions">
+                                    <button class="interactions__like" aria-label="Curtir post">
+                                        <img src="assets/img/icons/favorite.svg" alt="Like">
+                                    </button>
+
+                                    <button class="interactions__save" aria-label="Salvar post">
+                                        <img src="assets/img/icons/save.svg" alt="Save">
+                                    </button>
+                                </div>
+
+                                <span class="post__hashtag">#Suíça</span>
+                            </div>
+                        </li>
+
+                        <li class="posts__post">
+                            <div class="post__header">
+                                <a class="post__profile" href="#!">
+                                    <img class="profile__image" src="assets/img/profiles/1.svg" alt="Pajé_The_Fato">
+                                    <span class="profile__name">Pajé_The_Fato</span>
+                                </a>
+
+                                <button class="post__options" aria-label="Abrir opções do post">
+                                    <img src="assets/img/icons/options.svg" alt="Opções">
+                                </button>
+                            </div>
+
+                            <div class="post__body">
+                                <img class="post__photo" src="assets/img/photos/new-york.jpg" alt="">
+                            </div>
+
+                            <div class="post__footer">
+                                <div class="post__interactions">
+                                    <button class="interactions__like" aria-label="Curtir post">
+                                        <img src="assets/img/icons/favorite.svg" alt="Like">
+                                    </button>
+
+                                    <button class="interactions__save" aria-label="Salvar post">
+                                        <img src="assets/img/icons/save.svg" alt="Save">
+                                    </button>
+                                </div>
+
+                                <span class="post__hashtag">#Nova York</span>
+                            </div>
+                        </li>
+
+                        <li class="posts__post">
+                            <div class="post__header">
+                                <a class="post__profile" href="#!">
+                                    <img class="profile__image" src="assets/img/profiles/1.svg" alt="Pajé_The_Fato">
+                                    <span class="profile__name">Pajé_The_Fato</span>
+                                </a>
+
+                                <button class="post__options" aria-label="Abrir opções do post">
+                                    <img src="assets/img/icons/options.svg" alt="Opções">
+                                </button>
+                            </div>
+
+                            <div class="post__body">
+                                <img class="post__photo" src="assets/img/photos/japan.jpg" alt="">
+                            </div>
+
+                            <div class="post__footer">
+                                <div class="post__interactions">
+                                    <button class="interactions__like" aria-label="Curtir post">
+                                        <img src="assets/img/icons/favorite.svg" alt="Like">
+                                    </button>
+
+                                    <button class="interactions__save" aria-label="Salvar post">
+                                        <img src="assets/img/icons/save.svg" alt="Save">
+                                    </button>
+                                </div>
+
+                                <span class="post__hashtag">#Japão</span>
+                            </div>
+                        </li>
+
+                        <li class="posts__post">
+                            <div class="post__header">
+                                <a class="post__profile" href="#!">
+                                    <img class="profile__image" src="assets/img/profiles/1.svg" alt="Pajé_The_Fato">
+                                    <span class="profile__name">Pajé_The_Fato</span>
+                                </a>
+
+                                <button class="post__options" aria-label="Abrir opções do post">
+                                    <img src="assets/img/icons/options.svg" alt="Opções">
+                                </button>
+                            </div>
+
+                            <div class="post__body">
+                                <img class="post__photo" src="assets/img/photos/london.jpg" alt="">
+                            </div>
+
+                            <div class="post__footer">
+                                <div class="post__interactions">
+                                    <button class="interactions__like" aria-label="Curtir post">
+                                        <img src="assets/img/icons/favorite.svg" alt="Like">
+                                    </button>
+
+                                    <button class="interactions__save" aria-label="Salvar post">
+                                        <img src="assets/img/icons/save.svg" alt="Save">
+                                    </button>
+                                </div>
+
+                                <span class="post__hashtag">#Londres</span>
+                            </div>
+                        </li>
+
+                        <li class="posts__post">
+                            <div class="post__header">
+                                <a class="post__profile" href="#!">
+                                    <img class="profile__image" src="assets/img/profiles/1.svg" alt="Pajé_The_Fato">
+                                    <span class="profile__name">Pajé_The_Fato</span>
+                                </a>
+
+                                <button class="post__options" aria-label="Abrir opções do post">
+                                    <img src="assets/img/icons/options.svg" alt="Opções">
+                                </button>
+                            </div>
+
+                            <div class="post__body">
+                                <img class="post__photo" src="assets/img/photos/hawaii.jpg" alt="">
+                            </div>
+
+                            <div class="post__footer">
+                                <div class="post__interactions">
+                                    <button class="interactions__like" aria-label="Curtir post">
+                                        <img src="assets/img/icons/favorite.svg" alt="Like">
+                                    </button>
+
+                                    <button class="interactions__save" aria-label="Salvar post">
+                                        <img src="assets/img/icons/save.svg" alt="Save">
+                                    </button>
+                                </div>
+
+                                <span class="post__hashtag">#Havaí</span>
+                            </div>
+                        </li>
+
+                        <li class="posts__post">
+                            <div class="post__header">
+                                <a class="post__profile" href="#!">
+                                    <img class="profile__image" src="assets/img/profiles/1.svg" alt="Pajé_The_Fato">
+                                    <span class="profile__name">Pajé_The_Fato</span>
+                                </a>
+
+                                <button class="post__options" aria-label="Abrir opções do post">
+                                    <img src="assets/img/icons/options.svg" alt="Opções">
+                                </button>
+                            </div>
+
+                            <div class="post__body">
+                                <img class="post__photo" src="assets/img/photos/vatican.jpg" alt="">
+                            </div>
+
+                            <div class="post__footer">
+                                <div class="post__interactions">
+                                    <button class="interactions__like" aria-label="Curtir post">
+                                        <img src="assets/img/icons/favorite.svg" alt="Like">
+                                    </button>
+
+                                    <button class="interactions__save" aria-label="Salvar post">
+                                        <img src="assets/img/icons/save.svg" alt="Save">
+                                    </button>
+                                </div>
+
+                                <span class="post__hashtag">#Vaticano</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <aside class="main__menu menu">
+                <h2 class="logo">
+                    <a href="#">Sojourno</a>
+                </h2>
+
+                <a class="menu__profile" href="#!" aria-label="Ir para página de perfil">
+                    <img src="assets/img/profiles/personal.svg" alt="Página de perfil">
+                </a>
+
+                <nav class="menu__navbar">
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <a class="navbar__link" href="#!" aria-label="Ir para página inicial">
+                                <img src="assets/img/icons/home.svg" alt="Página inicial">
+                                <span>Home</span>
+                            </a>
+                        </li>
+    
+                        <li class="navbar__item">
+                            <a class="navbar__link" href="#!" aria-label="Ir para página de pesquisa">
+                                <img src="assets/img/icons/search.svg" alt="Página de pesquisa">
+                                <span>Explore</span>
+                            </a>
+                        </li>
+    
+                        <li class="navbar__item">
+                            <a class="navbar__link" href="#!" aria-label="Ir para página de likes">
+                                <img src="assets/img/icons/like.svg" alt="Página de likes">
+                                <span>Like</span>
+                            </a>
+                        </li>
+    
+                        <li class="navbar__item">
+                            <a class="navbar__link" href="#!" aria-label="Ir para página de conversas">
+                                <img src="assets/img/icons/message.svg" alt="Página de conversas">
+                                <span>Messages</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <a class="menu__logout" href="#!" aria-label="Sair da conta">
+                    <img src="assets/img/icons/logout.svg" alt="Sair">
+                    <span>Logout</span>
+                </a>
+            </aside>
+        </main>
+
+        <footer class="footer">
+            <nav class="navbar">
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="#!" aria-label="Ir para página inicial">
+                            <img src="assets/img/icons/home.svg" alt="Página inicial">
+                        </a>
+                    </li>
+
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="#!" aria-label="Ir para página de pesquisa">
+                            <img src="assets/img/icons/search.svg" alt="Página de pesquisa">
+                        </a>
+                    </li>
+
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="#!" aria-label="Ir para página de likes">
+                            <img src="assets/img/icons/like.svg" alt="Página de likes">
+                        </a>
+                    </li>
+
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="#!" aria-label="Ir para página de conversas">
+                            <img src="assets/img/icons/message.svg" alt="Página de conversas">
+                        </a>
+                    </li>
+
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="#!" aria-label="Ir para página de perfil">
+                            <img src="assets/img/profiles/personal.svg" alt="Página de perfil">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

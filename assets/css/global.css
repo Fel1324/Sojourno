@@ -1,0 +1,80 @@
+@import url('header-footer.css');
+@import url('main/main.css');
+@import url('main/stories.css');
+@import url('main/posts.css');
+@import url('main/menu.css');
+@import url('navbar.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --logo-color: #FFF;
+    --create-story-color: #FFF;
+    --default-color: #000;
+    --new-story-color: #449C00;
+    --hashtag-color: #629BBB;
+
+    --text-shadow-color: #00000080;
+    --photo-shadow-color: #00000099;
+
+    --body-bg-color: #E6F1D8;
+    --bg-color: #BAD9A2;
+
+    --main-font: 'Montserrat', sans-serif;
+    --logo-font: 'Satisfy', cursive;
+}
+
+body, html{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+
+    background-color: var(--body-bg-color);
+    color: var(--default-color);
+
+    font-size: 1rem;
+    font-family: var(--main-font);
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    vertical-align: top;
+}
+
+button{
+    background: none;
+    
+    cursor: pointer;
+}
+
+.logo a{
+    color: var(--logo-color);
+    
+    font-family: var(--logo-font);
+    font-size: 2.5rem;
+    text-shadow: 0 .25rem .25rem var(--text-shadow-color);
+}
+
+.container{
+    width: 100%;
+    max-width: 138rem;
+
+    margin-inline: auto;
+}
+
+.new-story{
+    border-color: var(--new-story-color);
+}

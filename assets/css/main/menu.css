@@ -1,0 +1,63 @@
+.menu{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .menu{
+        position: fixed;
+
+        display: block;
+
+        width: fit-content;
+        height: 100vh;
+
+        background: var(--bg-color);
+
+        padding: 1.5rem 2rem;
+
+        text-align: center;
+    }
+
+    .menu__profile img{
+        width: 7rem;
+
+        margin-top: 1.5rem;
+        margin-bottom: 2.25rem;
+
+        transition: all .3s ease-in-out;
+
+        border: .125rem solid transparent;
+        border-radius: 50%;
+    }
+
+    .menu__profile:hover img{
+        transform: scale(1.1);
+
+        border-color: var(--default-color);
+    }
+
+    .menu__logout{
+        position: absolute;
+        bottom: 0;
+
+        display: block;
+
+        text-align: left;
+
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        margin-bottom: 2.5rem;
+    }
+
+    .menu__logout img{
+        width: 1.5rem;
+    }
+
+    .menu__logout span{
+        color: var(--default-color);
+
+        font-size: 1.25rem;
+    }
+}

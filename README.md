@@ -57,16 +57,16 @@ Clique [aqui](https://fel1324.github.io/Sojourno/) para acessar o projeto
 
 <br>
 
-<h2 id="dev">👨‍💻 Desenvolvedor do projeto</h2>
-
-* Rafael Roberto de Oliveira
-
-<br>
-
 <h2 id="design">🎨 Designers do protótipo</h2>
 
 * Rafaela Alessandra Torelli
 * Julia Delfino
+
+<br>
+
+<h2 id="dev">👨‍💻 Desenvolvedor do projeto</h2>
+
+* Rafael Roberto de Oliveira
 
 <br>
 
